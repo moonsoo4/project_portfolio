@@ -1,0 +1,1466 @@
+@import url(font.css);
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+@font-face {
+    font-family: 'SeoulHangangM';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/SeoulHangangM.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+body{
+    background-repeat: no-repeat;
+    background-position: right 700px;
+    max-width: 1920px;
+    position: relative;
+}
+.lineBg{
+    position: absolute;
+    top: 700px;
+    right: 0;
+    z-index: -100;
+}
+.lineBg img{
+    opacity: 0.7;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+section h4{
+    font-size: 50px;
+    font-family: 'Montserrat', 'sans-serif';
+    font-weight: 800;
+}
+section .conceptArea{
+    display: flex;
+    justify-content: center;
+    gap: 215px;
+    padding-top: 60px;
+    text-align: center;
+}
+
+
+/* header */
+header{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    overflow: hidden;
+    min-width: 100%;
+    font-family: Montserrat, sans-serif;
+    background-color: rgba(255, 255, 255, 0.8);
+    z-index: 9999;
+}
+.inner {
+    width: 1720px;
+    margin: 0 auto;
+}
+.inner nav{
+    padding: 30px 0;
+    width: 100%;
+}
+.inner nav ul{
+    text-transform: uppercase;
+    display: flex;
+    justify-content: right;
+    gap: 40px;
+    font-size: 24px;
+    font-weight: 800;
+}
+header nav ul a{
+    position: relative;
+}
+header nav ul a:after{
+    content: '';
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 0;
+    height: 4px;
+    display: block;
+    background-color: #E5F9B7;
+    transition: all 0.5s
+}
+header nav ul a:hover::after{
+    width: 100%;
+}
+/* header End */
+
+
+/* header topVisual */
+.topVisual{
+    position: relative;
+    font-family: Montserrat, sans-serif;
+    overflow: hidden;
+    font-weight: 900;
+}
+.topVisual strong{
+    position: absolute;
+    top: 90px;
+    left: -88px;
+    font-size: 220px;
+}
+.topVisual em{
+    position: absolute;
+    top: 330px;
+    right: -82px;
+    font-size: 210px;
+}
+.projectArea .projectShortcut{
+    display: flex;
+    padding-top: 485px;
+    gap: 40px;
+}
+.projectArea .projectShortcut li a{
+    font-size: 26px;
+    font-family: 'Montserrat', 'sans-serif';
+    font-weight: 600;
+    color: #5a5a5a;
+}
+.projectArea .projectShortcut li a:hover{
+    font-weight: bold;
+    color: #202020;
+}
+/* header topVisual End */
+
+
+/* selfIntroPage */
+.selfIntroPage{
+    padding: 120px 0 80px 0;
+}
+.selfIntroPage .inner{
+    display: flex;
+    justify-content: space-between;
+}
+.selfIntroPage .introTxt{font-family: 'Pretendard-Regular';}
+.selfIntroPage .introTxt strong{
+    font-size: 70px;
+    font-weight: bold;
+    line-height: 1.6;
+    color: #72C985;
+}
+.selfIntroPage .introTxt p{
+    padding-top: 44px;
+    font-size: 32px;
+    line-height: 1.6;
+    color: #3d3d3d;
+}
+.selfIntroPage .photo p{
+    margin-top: 50px;
+    margin-right: 10px;
+}
+.selfIntroPage .photo img{
+    width: 280px;
+    height: 360px;
+}
+
+
+/* selfIntroPage End */
+
+
+/* important section */
+.important{
+    background: rgba(0, 0, 0, 0.75);
+    color: #fff;
+    padding-top: 40px;
+}
+.important h3{
+    font-size: 50px;
+    font-weight: 800;
+    font-family: Montserrat, sans-serif;
+}
+.important ul{
+    display: flex;
+    justify-content: center;
+    gap: 271px;
+    text-align: center;
+    padding: 30px 0 80px 0;
+}
+.important ul li{
+    position: relative;
+    padding: 60px 55px;
+    box-sizing: border-box;
+    width: 325px;
+    height: 320px;
+    border: 5px solid #fff;
+    border-radius: 5px;
+}
+.important ul .aniItem::after{
+    position: absolute;
+    right: -160px;
+    top: 110px;
+    content: '';
+    width: 50px;
+    height: 70px;
+    background: url(../images/important_direction.png) no-repeat 100%;
+}
+.important ul .tr0_8::after{
+    display: none;
+}
+.important ul li strong{
+    font-size: 32px;
+    font-family: Montserrat, sans-serif;
+}
+.important ul li p{
+    margin-top: 48px;
+    font-size: 24px;
+    line-height: 1.3;
+    font-family: 'Pretendard-Regular';
+}
+/* important section End */
+
+
+/* contentsIntro section */
+.contentsIntro h4{padding-top: 80px;}
+.contentsIntro .graphImg{padding-top: 125px;}
+.contentsIntro .graphImg img{width: 100%;}
+
+/* contentsIntro section 공통 */
+.contentsIntro .circle{
+    width: 54px;
+    height: 54px;
+    border-radius: 50%;
+    background: #D9D9D9;
+    display: inline-block;
+    cursor: pointer;
+}
+.contentsIntro .circle:hover{
+    background-color: #E5F9B7;
+    transition: 0.3s linear;
+}
+.contentsIntro strong{
+    font-size: 28px;
+    font-family: 'Pretendard-Regular';
+    font-weight: 600;
+    display: block;
+}
+.contentsIntro span{
+    font-family: 'Montserrat', 'sans-serif';
+    font-weight: 600;
+    margin: 8px 0;
+    display: block;
+}
+.contentsIntro p{
+    font-family: Montserrat, sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.50);
+    cursor: pointer;
+}
+.contentsIntro .seoul p:hover,
+.contentsIntro .con p:hover,
+.contentsIntro .con2 p:hover{
+    color: #000;
+    font-weight: 700;
+    transition: 0.3s linear;
+}
+.contentsIntro .seoul strong,
+.contentsIntro .con2 strong{
+    padding-top: 8px;
+}
+/* contentsIntro section 공통 End*/
+
+/* NAMU TECH contentsIntro section */
+.contentsIntro{position: relative;}
+.contentsIntro .namu{
+    position: absolute;
+    left: 138px;
+    top: 160px;
+    width: 150px;
+    text-align: center;
+}
+.contentsIntro .namu a{
+    display: block;
+    font-family: Montserrat, sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.50);
+    cursor: pointer;
+}
+.contentsIntro .namu a:hover{
+    color: #000;
+    font-weight: 700;
+    transition: 0.3s linear;
+}
+.contentsIntro .namu .concept{padding-top: 25px;}
+.contentsIntro .namu .font{padding: 24px 0;}
+.contentsIntro .namu .mainPage{padding: 24px 0;}
+/* NAMU TECH contentsIntro section End */
+
+/* SEOUL CITY HALL */
+.contentsIntro .seoul{
+    position: absolute;
+    left: 615px;
+    top: 445px;
+    width: 150px;
+    text-align: center;
+}
+.contentsIntro .seoul p{
+    font-family: Montserrat, sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.50);
+    cursor: pointer;
+}
+.contentsIntro .seoul .font{padding: 24px 0;}
+.contentsIntro .seoul .mainPage {padding: 24px 0;}
+.contentsIntro .seoul span{
+    font-family: 'Montserrat', 'sans-serif';
+    font-weight: 600;
+    margin: 8px 0;
+    display: block;
+}
+/* SEOUL CITY HALL contentsIntro section End */
+
+/* CON1 */
+.contentsIntro .con{
+    position: absolute;
+    left: 1095px;
+    top: 160px;
+    width: 150px;
+    height: 310px;
+    text-align: center;
+}
+.contentsIntro .con .concept{padding-top: 25px;}
+.contentsIntro .con .font{padding: 24px 0;}
+.contentsIntro .con .mainPage{padding: 24px 0;}
+/* CON1 end */
+
+/* con2 */
+.contentsIntro .con2{
+    position: absolute;
+    left: 1625px;
+    top: 616px;
+    width: 150px;
+    height: 310px;
+    text-align: center;
+}
+.contentsIntro .con2 p{
+    font-family: Montserrat, sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.50);
+    cursor: pointer;
+}
+.contentsIntro .con2 .font{padding: 24px 0;}
+.contentsIntro .con2 .mainPage {padding: 24px 0;}
+.contentsIntro .con2 .subPage{padding-bottom: 25px;}
+.contentsIntro .con2 span{
+    font-family: 'Montserrat', 'sans-serif';
+    font-weight: 600;
+    margin: 8px 0;
+    display: block;
+}
+/* con2 end*/
+
+/* contentsIntro section End */
+
+/* firstProject section */
+.firstProject{
+    padding: 80px 0 90px 0;
+    background: rgba(244, 244, 244, 0.7);
+}
+.projectWrap{
+    width: 1180px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.projectWrap .titleArea{font-family: 'Pretendard-Regular';}
+.projectWrap .titleArea .tag{
+    display: block;
+    font-size: 16px;
+}
+.projectWrap .titleArea em .IT{
+    font-size: 18px;
+    font-weight: 600;
+    color: #3876F2;
+}
+.projectWrap .titleArea em .namu1{
+    font-size: 18px;
+    font-weight: 600;
+    color: #3B5956;
+}
+.projectWrap .titleArea h2{
+    font-size: 42px;
+    font-weight: 700;
+    padding-top: 8px;
+}
+.projectWrap .titleArea strong{
+    display: block;
+    padding-top: 26px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.6;
+    color: rgba(0, 0, 0, 0.7);;
+}
+.projectWrap .titleArea .info{padding: 29px 0 38px 0;}
+.projectWrap .titleArea .info em{
+    font-size: 18px;
+    font-weight: 600;
+    display: block;
+    line-height: 1.6;
+}
+.projectWrap .titleArea .info em:nth-child(2){margin: 4px 0;}
+.projectWrap .titleArea .info em.montFont{font-family: 'Montserrat', 'sans-serif';}
+.projectWrap .titleArea .enterPage{font-size: 0;}
+
+.projectWrap .titleArea .enterPage a{
+    display: inline-block;
+    font-size: 16px;
+    font-family: 'Montserrat', 'sans-serif';
+    font-weight: 600;
+    background-color: #E5F9B7;
+    border: 1px solid #41633E;
+    border-radius: 25px;
+}
+.projectWrap .titleArea .enterPage a:hover{
+    background-color: #caf763;
+    transition: 0.2s linear;
+}
+
+.projectWrap .titleArea .enterPage a:nth-child(1){
+    padding: 15px 13px;
+    margin-right: 26px;
+}
+.projectWrap .titleArea .enterPage a:last-child{
+    margin-right: 0;
+    padding: 15px 20px;
+}
+
+.firstProject .projectWrap .imgArea{
+    height: 100%;
+    padding-top: 30px;
+    position: relative;
+}
+.firstProject .projectWrap .imgArea .banner img{
+    width: 622px;
+    height: 319px;
+    border-radius: 30px;
+}
+
+.firstProject .projectWrap .imgArea .leftIntro{
+    position: absolute;
+    right: 115px;
+    bottom: -50px;
+    width: 119px;
+    height: 263px;
+}
+.firstProject .projectWrap .imgArea .leftIntro img{
+    width: 119px;
+    height: 263px;
+}
+.firstProject .projectWrap .imgArea .rightIntro{
+    position: absolute;
+    right: 11px;
+    bottom: -50px;
+    width: 119px;
+    height: 263px;
+    transform: rotateY(180deg);
+    rotate: 7deg;
+}
+.firstProject .projectWrap .imgArea .rightIntro img{
+    width: 119px;
+    height: 263px;
+}
+.firstProject .projectWrap .imgArea div img{
+    width: 100%;
+    height: 100%;
+}
+/* firstProject section End */
+
+/* firstProjectConcept section */
+.firstProjectConcept{
+    border-bottom: 1px solid gray;
+    padding: 55px 0 80px 0;
+}
+.firstProjectConcept .inner{
+    width: 1180px;
+    margin: 0 auto;
+}
+
+.firstProjectConcept .conceptArea .circle{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+.firstProjectConcept .conceptArea .concept1 em{
+    position: absolute;
+    left: 50%;
+    top: calc(50% - 30px);
+    transform: translate(-50%, -50%);
+}
+.firstProjectConcept .conceptArea em{
+    font-size: 30px;
+    font-family: 'Montserrat', 'sans-serif';
+    font-weight: 600;
+}
+.firstProjectConcept .conceptArea strong{
+    padding-top: 26px;
+    display: block;
+    font-family: 'Pretendard-Regular';
+    font-weight: 600;
+    font-size: 28px;
+}
+
+.firstProjectConcept .conceptArea .concept1{position: relative;}
+.firstProjectConcept .conceptArea .concept1 .con1{
+    border: 2px solid rgba(198, 198, 198, 0.7);
+    box-sizing: border-box;
+}
+
+.firstProjectConcept .conceptArea .concept2{position: relative;}
+.firstProjectConcept .conceptArea .concept2 em{
+    position: absolute;
+    left: 50%;
+    top: calc(50% - 30px);
+    transform: translate(-50%, -50%);
+}
+
+.firstProjectConcept .conceptArea .concept2 .con2{
+    border: 1px solid #000;
+    box-sizing: border-box;
+}
+
+.firstProjectConcept .conceptArea .concept3{position: relative;}
+.firstProjectConcept .conceptArea .concept3 em{
+    position: absolute;
+    left: 50%;
+    top: calc(50% - 30px);
+    transform: translate(-50%, -50%);
+}
+.firstProjectConcept .conceptArea .concept3 .con3{
+    border: 4px dotted black;
+    box-sizing: border-box;
+}
+/* firstProjectConcept section End */
+
+/* firstProjectFont section */
+.firstProjectFont{
+    padding: 53px 0 108px 0;
+    background-color: #41633E;
+    color: #fff;
+}
+.firstProjectFont .inner{
+    width: 1180px;
+    margin: 0 auto;
+}
+
+.firstProjectFont .fontArea .namuFont{
+    padding-top: 40px;
+    font-family: 'Nanum Gothic', sans-serif;
+    display: flex;
+    justify-content: space-between;
+}
+.firstProjectFont .fontArea .namuFont strong{
+    font-weight: 700;
+    font-size: 36px;
+    display: flex;
+    align-items: center;
+}
+.firstProjectFont .fontArea .namuFont p{
+    font-size: 22px;
+    line-height: 1.4;
+}
+.firstProjectFont .fontArea .namuFont .firstNanum{font-weight: 300;}
+.firstProjectFont .fontArea .namuFont p:nth-child(2){
+    font-weight: 600;
+    margin: 25px 0;
+}
+.firstProjectFont .fontArea .namuFont p:nth-child(3){font-weight: 900;}
+.firstProjectColor{
+    padding: 53px 0 76px 0;
+    border-bottom: 1px solid #8E8E8E;
+}
+/* firstProjectFont section End */
+
+/* firstProjectColor section */
+.firstProjectColor .inner{
+    width: 1180px;
+    margin: 0 auto;
+}
+.firstProjectColor .color1{
+    display: flex;
+    justify-content: space-between;
+}
+.firstProjectColor .color1 .nanum{
+    margin-top: 108px;
+    font-size: 24px;
+    font-family: 'Pretendard-Regular';
+    font-weight: 600;
+    line-height: 1.6;
+}
+.firstProjectColor .color1 .colorWrap{
+    width: 580px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+.firstProjectColor .color1 .colorWrap div{
+    width: 160px;
+    height: 122px;
+}
+.firstProjectColor .color1 .colorWrap strong{
+    font-family: 'Pretendard-Regular';
+    font-size: 18px;
+    display: block;
+    text-align: center;
+    padding-top: 8px;
+}
+.firstProjectColor .color1 .colorWrap > div >div {
+    width: 160px;
+    height: 90px;
+}
+.firstProjectColor .color1 .colorWrap .colorBox1 .box1{background-color: #3876F2;}
+.firstProjectColor .color1 .colorWrap .colorBox2 .box2{background-color: #022B59;}
+.firstProjectColor .color1 .colorWrap .colorBox3 .box3{background-color: #1C2228;}
+.firstProjectColor .color1 .colorWrap .colorBox4 .box4{background-color: #567090;}
+.firstProjectColor .color1 .colorWrap .colorBox4 .box5{background-color: #516B69;}
+.firstProjectColor .color1 .colorWrap .colorBox4 .box6{background-color: #3B5956;}
+/* firstProjectColor section End */
+
+/* firstProjectPage section */
+.firstProjectPage{padding: 52px 0 82px 0;}
+.firstProjectPage .inner{
+    width: 1180px;
+    margin: 0 auto;
+}
+.firstProjectPage .main{
+    display: flex;
+    gap: 280px;
+    font-family: 'Pretendard-Regular';
+    padding-top: 32px;
+}
+.firstProjectPage .main .mainImg img{display: block;}
+
+/* firstProjectPage section 공통 */
+.firstProjectPage .main .descArea .one{
+    width: 20px;
+    height: 20px;
+    vertical-align: top;
+    border-radius: 50%;
+    background: #8ED49D;
+    display: inline-block;
+    position: relative;
+}
+.firstProjectPage .main .descArea .one::before{
+    content: '';
+    width: 75px;
+    height: 2px;
+    background-color: #8ED49D;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: -100;
+}
+/* firstProjectPage section 공통 END */
+
+.firstProjectPage .main .descArea .descTxt{display: inline-block;}
+.firstProjectPage .main .descArea strong{
+    font-size: 24px;
+    font-weight: 600;
+}
+.firstProjectPage .main .descArea p{
+    font-size: 18px;
+    line-height: 1.3;
+    padding-top: 4px;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.firstProjectPage .main .descArea .desc1{
+    display: flex;
+    justify-content: space-between;
+}
+.firstProjectPage .main .descArea .desc1 .descTxtArea{
+    padding-top: 100px;
+}
+.firstProjectPage .main .descArea .desc1 .one{margin-right: 9px;}
+.firstProjectPage .main .descArea .desc2{
+    margin: 124px 0;
+    display: flex;
+    gap: 18px;
+    font-size: 0;
+}
+.firstProjectPage .main .descArea .desc2 .descTxtArea{
+    text-align: right;
+    padding-top: 70px;
+}
+.firstProjectPage .main .descArea .desc2 .one{margin-left: 9px;}
+.firstProjectPage .main .descArea .desc2 .one::before{
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.firstProjectPage .main .descArea .desc3{
+    font-size: 0;
+    display: flex;
+    justify-content: space-between;
+}
+.firstProjectPage .main .descArea .desc3 .descTxtArea{
+    padding-top: 60px;
+}
+.firstProjectPage .main .descArea .desc3 .one{margin-right: 9px;}
+.firstProjectPage .main .descArea .desc4{
+    margin-top: 124px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 0;
+}
+.firstProjectPage .main .descArea .desc4 .descTxtArea{
+    text-align: right;
+    padding-top: 70px;
+}
+.firstProjectPage .main .descArea .desc4 .one{margin-left: 9px;}
+.firstProjectPage .main .descArea .desc4 .one::before{
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: -100;
+}
+/* firstProjectPage section End */
+
+/* secondProject section */
+.secondProject{
+    background-color: rgba(244, 244, 244, 0.7);
+    padding: 80px 0 90px 0;
+}
+.secondProject .titleArea .seoul1{
+    font-size: 18px;
+    font-weight: 600;
+}
+.secondProject strong{width: 310px;}
+
+.secondProject .projectWrap .imgArea{
+    padding-top: 30px;
+    position: relative;
+}
+.secondProject .projectWrap .imgArea .leftIntro {
+    position: absolute;
+    right: 100px;
+    bottom: 0px;
+    width: 119px;
+    height: 263px;
+}
+.secondProject .projectWrap .imgArea .rightIntro {
+    position: absolute;
+    right: 32px;
+    bottom: 0px;
+    width: 119px;
+    height: 263px;
+    rotate: 1deg;
+}
+/* secondProject section End */
+
+/* secondProjectConcept section */
+.secondProjectConcept{padding: 55px 0 80px 0;}
+.secondProjectConcept .inner{
+    width: 1180px;
+    margin: 0 auto;
+}
+.secondProjectConcept .conceptArea .circle{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    box-sizing: border-box;
+}
+.secondProjectConcept .conceptArea .circle.con4{border: 2px solid rgba(198, 198, 198, 0.7);}
+.secondProjectConcept .conceptArea .circle.con5{border: 4px dotted black;}
+.secondProjectConcept .conceptArea .circle.con6{border: 15px outset #E5F9B7;}
+.secondProjectConcept .conceptArea em{
+    font-size: 30px;
+    font-family: 'Montserrat', 'sans-serif';
+    font-weight: 600;
+}
+.secondProjectConcept .conceptArea strong{
+    padding-top: 26px;
+    display: block;
+    font-family: 'Pretendard-Regular';
+    font-size: 28px;
+    font-weight: 600;
+}
+.secondProjectConcept .conceptArea .concept4{position: relative;}
+.secondProjectConcept .conceptArea .concept4 em{
+    position: absolute;
+    left: 50%;
+    top: calc(50% - 30px);
+    transform: translate(-50%, -50%);
+}
+
+.secondProjectConcept .conceptArea .concept5{position: relative;}
+.secondProjectConcept .conceptArea .concept5 em{
+    position: absolute;
+    left: 50%;
+    top: calc(50% - 30px);
+    transform: translate(-50%, -50%);
+}
+
+.secondProjectConcept .conceptArea .concept6{position: relative;}
+.secondProjectConcept .conceptArea .concept6 em{
+    position: absolute;
+    left: 50%;
+    top: calc(50% - 30px);
+    transform: translate(-50%, -50%);
+}
+/* secondProjectConcept section End */
+
+/* secondProjectFontColor section */
+.secondProjectFontColor{
+    padding: 53px 0 108px 0;
+    background-color: #41633e;
+    color: #fff;
+}
+.secondProjectFontColor .inner{
+    width: 1180px;
+    margin: 0 auto;
+}
+.secondProjectFontColor strong{
+    display: block;
+    font-size: 28px;
+    font-weight: 600;
+}
+.secondProjectFontColor p{
+    font-size: 22px;
+    line-height: 1.4;
+}
+
+.secondProjectFontColor .hangangFont{
+    font-family: 'SeoulHangangM';
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+}
+.secondProjectFontColor .hangangFont strong{
+    display: flex;
+    align-items: center;
+}
+.secondProjectFontColor .hangangFont .han2{
+    font-weight: 600;
+    margin-top: 25px;
+}
+
+.secondProjectFontColor .notoFont{
+    font-family: 'Noto Sans KR', sans-serif;
+    display: flex;
+    gap: 266px;
+    padding-top: 86px;
+}
+.secondProjectFontColor .notoFont strong{
+    font-family: 'Noto Sans KR', sans-serif;
+    display: flex;
+    align-items: center;
+}
+.secondProjectFontColor .notoFont p{
+    font-family: 'Noto Sans KR', sans-serif;
+}
+.secondProjectFontColor .notoFont .noto1{font-weight: 300;}
+.secondProjectFontColor .notoFont .noto2{margin-top: 25px;}
+.secondProjectFontColor .notoFont .noto3{
+    font-weight: 500;
+    margin: 25px 0;
+}
+.secondProjectFontColor .notoFont .noto4{font-weight: 900;}
+/* secondProjectFontColor section End */
+
+/* secondColor section */
+.secondColor{
+    padding: 53px 0 76px 0;
+    border-bottom: 1px solid #8E8E8E;
+}
+.secondColor .inner{
+    width: 1180px;
+    margin: 0 auto;
+}
+.secondColor .colorArea .seoulColor{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Pretendard-Regular';
+}
+.secondColor .colorArea .seoulColor .hangang{
+    margin-top: 108px;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1.6;
+}
+.secondColor .colorArea .colorWrap{
+    width: 580px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    text-align: center;
+}
+.secondColor .colorArea .colorWrap div{
+    width: 160px;
+    height: 122px;
+}
+.secondColor .colorArea .colorWrap strong{
+    font-size: 18px;
+    display: inline-block;
+    padding-top: 8px;
+    box-sizing: border-box;
+}
+.secondColor .colorArea .colorWrap > div >div {
+    width: 160px;
+    height: 90px;
+}
+.secondColor .colorArea .colorWrap .colorBox1 .box5{background-color: #38924A;}
+.secondColor .colorArea .colorWrap .colorBox2 .box6{background-color: #BD1137;}
+.secondColor .colorArea .colorWrap .colorBox3 .box7{background-color: #D89A64;}
+.secondColor .colorArea .colorWrap .colorBox4 .box8{background-color: #008BD0;}
+.secondColor .colorArea .colorWrap .colorBox5 .box9{background-color: #3449BF;}
+.secondColor .colorArea .colorWrap .colorBox6 .box10{background-color: #000000;}
+/* secondColor section end */
+
+/* secondProjectPage section */
+.secondProjectPage{padding-top: 53px;}
+.secondProjectPage .inner{
+    width: 1180px;
+    margin: 0 auto;
+}
+.secondProjectPage .main{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Pretendard-Regular';
+    padding: 52px 0 82px 0;
+}
+
+/* secondProjectPage section 공통 */
+.secondProjectPage .main .descArea .one{
+    width: 20px;
+    height: 20px;
+    vertical-align: top;
+    border-radius: 50%;
+    background: #8ED49D;
+    display: inline-block;
+    position: relative;
+}
+.secondProjectPage .main .descArea .one::before{
+    content: '';
+    width: 75px;
+    height: 2px;
+    background-color: #8ED49D;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: -100;
+}
+.secondProjectPage .main .descArea img{display: block;}
+/* secondProjectPage section 공통 END */
+
+.secondProjectPage .main .descArea .desc1 .descTxtArea{margin-top: 40px;}
+
+.secondProjectPage .main .descArea .descTxt{
+    display: inline-block;
+}
+.secondProjectPage .main .descArea strong{
+    font-size: 24px;
+    font-weight: 600;
+}
+.secondProjectPage .main .descArea p{
+    font-size: 18px;
+    line-height: 1.3;
+    padding-top: 4px;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.secondProjectPage .main .descArea .desc1{
+    display: flex;
+    justify-content: space-between;
+    gap: 18px;
+}
+.secondProjectPage .main .descArea .desc1 .one{margin-right: 9px;}
+
+.secondProjectPage .main .descArea .desc2{
+    margin: 38px 0;
+    display: flex;
+    justify-content: space-between;
+    font-size: 0;
+}
+.secondProjectPage .main .descArea .desc2 .descTxtArea{
+    text-align: right;
+    padding-top: 70px;
+}
+.secondProjectPage .main .descArea .desc2 .one{margin-left: 9px;}
+.secondProjectPage .main .descArea .desc2 .one::before{
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.secondProjectPage .main .descArea .desc3{
+    font-size: 0;
+    display: flex;
+    justify-content: space-between;
+}
+.secondProjectPage .main .descArea .desc3 .descTxtArea{padding-top: 60px;}
+.secondProjectPage .main .descArea .desc3 .one{margin-right: 9px;}
+.secondProjectPage .main .descArea .desc4{
+    margin: 42px 0 27px 0;
+    display: flex;
+    justify-content: space-between;
+    font-size: 0;
+}
+.secondProjectPage .main .descArea .desc4 .descTxtArea{
+    text-align: right;
+    padding-top: 70px;
+}
+.secondProjectPage .main .descArea .desc4 .one{margin-left: 9px;}
+.secondProjectPage .main .descArea .desc4 .one::before{
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: -100;
+}
+.secondProjectPage .main .descArea .desc5{
+    display: flex;
+    justify-content: space-between;
+}
+.secondProjectPage .main .descArea .desc5 .descTxtArea{padding-top: 100px;}
+.secondProjectPage .main .descArea .desc5 .one{margin-right: 9px;}
+/* secondProjectPage section End */
+
+/* thirdProject section */
+.thirdProject{
+    background: rgba(244, 244, 244, 0.7);
+    padding: 80px 0 90px 0;
+}
+
+.thirdProject .projectWrap .imgArea{
+    padding-top: 30px;
+    position: relative;
+}
+.thirdProject .projectWrap .imgArea .leftIntro {
+    position: absolute;
+    right: 100px;
+    bottom: -40px;
+    width: 119px;
+    height: 263px;
+}
+.thirdProject .projectWrap .imgArea .rightIntro {
+    position: absolute;
+    right: 32px;
+    bottom: -40px;
+    width: 119px;
+    height: 263px;
+    rotate: 1deg;
+}
+.thirdProject .titleArea em span{font-weight: 600;}
+/* thirdProject section End */
+
+/* thirdProjectConcept section */
+.thirdProjectConcept{padding: 55px 0 80px 0;}
+.thirdProjectConcept .inner{
+    width: 1180px;
+    margin: 0 auto;
+}
+.thirdProjectConcept .conceptArea .circle{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    box-sizing: border-box;
+}
+.thirdProjectConcept .conceptArea em{
+    font-size: 30px;
+    font-family: 'Montserrat', 'sans-serif';
+    font-weight: 500;
+}
+.thirdProjectConcept .conceptArea strong{
+    padding-top: 26px;
+    box-sizing: border-box;
+    display: block;
+    text-align: center;
+    font-family: 'Pretendard', sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+}
+.thirdProjectConcept .conceptArea .concept7{position: relative;}
+.thirdProjectConcept .conceptArea .circle.con7{border: 2px solid rgba(198, 198, 198, 0.7);}
+.thirdProjectConcept .conceptArea .concept7 em{
+    position: absolute;
+    left: 50%;
+    top: calc(50% - 30px);
+    transform: translate(-50%, -50%);
+}
+
+.thirdProjectConcept .conceptArea .concept8{position: relative;}
+.thirdProjectConcept .conceptArea .concept8 .circle{border: 1px solid #000;}
+.thirdProjectConcept .conceptArea .concept8 em{
+    position: absolute;
+    left: 50%;
+    top: calc(50% - 30px);
+    transform: translate(-50%, -50%);
+}
+
+.thirdProjectConcept .conceptArea .concept9{position: relative;}
+.thirdProjectConcept .conceptArea .concept9 .circle{border: 4px dotted black;}
+.thirdProjectConcept .conceptArea .concept9 em{
+    position: absolute;
+    left: 50%;
+    top: calc(50% - 30px);
+    transform: translate(-50%, -50%);
+}
+/* thirdProjectConcept section End */
+
+/* thirdProjectFont section */
+.thirdProjectFont{
+    padding: 53px 0 108px 0;
+    background-color: #41633e;
+    color: #fff;
+}
+.thirdProjectFont .inner{
+    width: 1180px;
+    margin: 0 auto;
+}
+.thirdProjectFont .Pretendard{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Pretendard', sans-serif;
+    padding-top: 40px;
+}
+.thirdProjectFont .Pretendard strong{
+    display: flex;
+    font-size: 36px;
+    font-weight: 700;
+    align-items: center;
+}
+.thirdProjectFont .Pretendard .Pretendard1{
+    font-size: 22px;
+    line-height: 1.4;
+}
+.thirdProjectFont .Pretendard .Pretendard1 .pre2{
+    margin: 25px 0;
+    font-weight: 500;
+}
+.thirdProjectFont .Pretendard .Pretendard1 .pre3{font-weight: 600;}
+
+.thirdProjectFont .Poppins{
+    display: flex;
+    gap: 374px;
+    font-family: 'Poppins', sans-serif;
+    padding-top: 72px;
+}
+.thirdProjectFont .Poppins strong{
+    display: flex;
+    font-size: 36px;
+    font-weight: 700;
+    align-items: center;
+}
+.thirdProjectFont .Poppins .poppin{
+    font-size: 22px;
+    line-height: 1.4;
+}
+.thirdProjectFont .Poppins .poppin .popp2{
+    margin: 25px 0;
+    font-weight: 500;
+}
+.thirdProjectFont .Poppins .poppin .popp3{font-weight: 600;}
+.thirdProjectFont .Poppins .poppin .popp4{
+    margin-top: 25px;
+    font-weight: 700;
+}
+/* thirdProjectFont section End */
+
+/* thirdProjectColor section */
+.thirdProjectColor{
+    padding: 53px 0 76px 0;
+    border-bottom: 1px solid #8E8E8E;
+}
+.thirdProjectColor .inner{
+    width: 1180px;  
+    margin: 0 auto; 
+}
+.thirdProjectColor .colorArea{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Pretendard-Regular';
+
+}
+.thirdProjectColor .colorArea .ohnul {
+    margin-top: 108px;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1.6;
+    width: 437px;
+}
+.thirdProjectColor .colorArea .colorWrap{
+    width: 580px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    text-align: center;
+}
+.thirdProjectColor .colorArea .colorWrap div{
+    width: 160px;
+    height: 122px;
+}
+.thirdProjectColor .colorArea .colorWrap strong{
+    font-size: 18px;
+    display: inline-block;
+    padding-top: 8px;
+}
+
+.thirdProjectColor .colorArea .colorWrap > div >div {
+    width: 160px;
+    height: 90px;
+}
+.thirdProjectColor .colorArea .colorWrap .colorBox1 .box1{background-color: #000000;}
+.thirdProjectColor .colorArea .colorWrap .colorBox2 .box2{background-color: #676767;}
+.thirdProjectColor .colorArea .colorWrap .colorBox3 .box3{background-color: #868686;}
+.thirdProjectColor .colorArea .colorWrap .colorBox4 .box4{background-color: #F2F2F2;}
+.thirdProjectColor .colorArea .colorWrap .colorBox5 .box5{background-color: #DB2C1C;}
+.thirdProjectColor .colorArea .colorWrap .colorBox6 .box6{background-color: #35C5F0;}
+/* thirdProjectColor section end */
+
+/* thirdProjectPage section */
+.thirdProjectPage{padding: 53px 0 108px 0;}
+.thirdProjectPage .inner{
+    width: 1180px;
+    margin: 0 auto;
+}
+.thirdProjectPage .main{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 52px;
+}
+.thirdProjectPage .main .mainImg img{vertical-align: top;}
+
+/* thirdProjectPage section 공통 */
+.thirdProjectPage .main .descArea .one{
+    width: 20px;
+    height: 20px;
+    vertical-align: top;
+    border-radius: 50%;
+    background: #8ED49D;
+    display: inline-block;
+    position: relative;
+}
+.thirdProjectPage .main .descArea .one::before{
+    content: '';
+    width: 75px;
+    height: 2px;
+    background-color: #8ED49D;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: -100;
+}
+.thirdProjectPage .descArea img{display: block;}
+
+.thirdProjectPage .descArea .descTxtArea .descTxt{
+    display: inline-block;
+    font-family: 'Pretendard-Regular';
+}
+.thirdProjectPage .descArea .descTxtArea .descTxt strong{
+    font-size: 24px;
+    font-weight: 600;
+}
+.thirdProjectPage .descArea .descTxtArea .descTxt p{
+    font-size: 18px;
+    line-height: 1.3;
+    padding-top: 4px;
+    color: rgba(0, 0, 0, 0.7);
+}
+/* thirdProjectPage section 공통 END */
+
+.thirdProjectPage .main .descArea .desc1{
+    display: flex;
+    gap: 18px;
+}
+.thirdProjectPage .main .descArea .desc1 .descTxtArea{padding-top: 70px;}
+.thirdProjectPage .main .descArea .desc1 .one{margin-right: 9px;}
+
+.thirdProjectPage .main .descArea .desc2{
+    margin: 70px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.thirdProjectPage .main .descArea .desc2 .descTxtArea{
+    text-align: right;
+    padding-top: 70px;
+}
+.thirdProjectPage .main .descArea .desc2 .one{margin-left: 9px;}
+.thirdProjectPage .main .descArea .desc2 .one::before{
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.thirdProjectPage .main .descArea .desc3{
+    display: flex;
+    justify-content: space-between;
+}
+.thirdProjectPage .main .descArea .desc3 .descTxtArea{padding-top: 50px;}
+.thirdProjectPage .main .descArea .desc3 .one{margin-right: 9px;}
+.thirdProjectPage .main .descArea .desc4{
+    margin: 50px 0 86px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.thirdProjectPage .main .descArea .desc4 .descTxtArea{
+    text-align: right;
+    padding-top: 50px;
+}
+.thirdProjectPage .main .descArea .desc4 .one{margin-left: 9px;}
+.thirdProjectPage .main .descArea .desc4 .one::before{
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: -100;
+}
+.thirdProjectPage .main .descArea .desc5{
+    display: flex;
+    justify-content: space-between;
+}
+.thirdProjectPage .main .descArea .desc5 .descTxtArea{padding-top: 60px;}
+.thirdProjectPage .main .descArea .desc5 .one{margin-right: 9px;}
+/* thirdProjectPage section End */
+
+/* footer section */
+footer{
+    background-color: #d9d9d9;
+    font-family: 'Pretendard-Regular';
+    padding: 108px 0;
+}
+footer .inner{
+    width: 1180px;
+    margin: 0 auto;
+}
+footer .footerWrap{
+    display: flex;
+    justify-content: space-between;
+}
+footer .leftFooter .contact{
+    font-weight: 800;
+    font-size: 26px;
+}
+footer .leftFooter .phone{
+    font-size: 50px;
+    font-weight: 700;
+    margin-top: 80px;
+    margin-bottom: 28px;
+}
+footer .leftFooter .email{
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 54px;
+}
+footer .leftFooter span{
+    font-weight: 500;
+    color: #676767;
+    font-size: 16px;
+    margin-left: 8px;
+}
+footer .leftFooter .contactTime{
+    font-weight: 500;
+    color: #676767;
+    font-size: 18px;
+    font-weight: 500;
+}
+footer .leftFooter .contactTime p:nth-child(even){
+    margin: 14px 0;
+}
+footer .rightFooter strong{
+    font-size: 50px;
+    font-weight: 800;
+}
+footer .rightFooter em{
+    display: block;
+    font-size: 30px;
+    margin-top: 50px;
+    font-weight: 500;
+    line-height: 1.6;
+}
+footer .rightFooter em span{font-weight: 800;}
+footer .rightFooter .copyright{
+    margin-top: 88px;
+    font-size: 16px;
+    color: #868686;
+    line-height: 1.4;
+}
+/* footer section End*/
+
+
+/* cursor */
+.followCursor {
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    background: #E0F6AD;
+    position: fixed;
+    left: 100%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 999;
+    pointer-events: none;
+    mix-blend-mode: difference;
+    opacity: 0.7;
+}
+/* cursor end */
+
+
+/* transition Section */
+
+section .aniTitle {
+    opacity: 0;
+    transform: translateY(50%);
+}
+section .aniTitle.on {
+    opacity: 1;
+    transform: translateY(0);
+    transition: 0.9s;
+}
+
+
+
+section .aniItem {
+    opacity: 0;
+    transform: translateY(60%);
+}
+section .aniItem.on {
+    opacity: 1;
+    transform: translateY(0);
+    transition: 0.5s;
+}
+section .aniItem.tr0_4.on {
+    transition-delay: 0.4s;
+}
+section .aniItem.tr0_6.on {
+    transition-delay: 0.6s;
+}
+section .aniItem.tr0_8.on {
+    transition-delay: 0.8s;
+}
+
+
+
+section .aniLeft {
+    transform: translateX(-50%);
+    opacity: 0;
+}
+section .aniLeft.on {
+    transform: translateX(0);
+    opacity: 1;
+    transition: 0.9s;
+}
+
+section .aniRight {
+    transform: translateX(50%);
+    opacity: 0;
+}
+section .aniRight.on {
+    transform: translateX(0);
+    opacity: 1;
+    transition: 0.8s;
+}
+
+/* transition Section End */
